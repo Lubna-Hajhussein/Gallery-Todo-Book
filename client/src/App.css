@@ -1,0 +1,38 @@
+body{
+  background-color: #f3e5e5;
+}
+
+#move-todo {
+  -webkit-animation: moving 15s infinite;
+  animation: moving 15s infinite;
+}
+@keyframes moving {
+  from {transform: translateX(200px);}
+  to {transform: translateX(900px);}
+}
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    height: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
